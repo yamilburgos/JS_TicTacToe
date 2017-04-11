@@ -5,54 +5,22 @@
 
 span {
     border: 2px solid black;
+    height: 120px;
 }
 
 .gameBoard {
-  display: grid;
-    height: 300px;
-    width: 300px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px;
-}
-
-.one { 
-  grid-column: 0 / 3;
-  grid-row: 1 / 2;
-}
-.two { 
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-}
-.three {
-  grid-column: 3 / 3;
-  grid-row: 1 / 2;
-}
-.four {
-  grid-column: 1 / 2;
-  grid-row: 2/ 3;
-}
-.five {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-.six {
-  grid-column: 3 / 3 ;
-  grid-row: 2 / 3;
-}
-
-.seven {
-  grid-column: 0 / 3;
-  grid-row: 3/ 3;
-}
-.eight {
-  grid-column: 2 / 3;
-  grid-row: 3 / 3;
-}
-.nine {
-  grid-column: 3 / 3;
-  grid-row: 3 / 3;
+    height: 360px;
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 span:hover {
-    border: 2px solid yellow;
+    border: 2px double lightgreen;
+}
+
+p {
+    line-height: 120px;
+    font-size: 50px;
+    text-align: center;
 }
